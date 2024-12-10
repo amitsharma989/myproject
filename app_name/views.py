@@ -17,7 +17,7 @@ class AnalyticsAPIView(APIView):
         return Response(data)
 
 
-class ProductView(APIView):
+class ProductAnalyticsView(APIView):
     def get(self, request):
         category = request.GET.get('category', '').lower()
         min_price = request.GET.get('min_price', 0)

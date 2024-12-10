@@ -1,0 +1,6 @@
+### *requirements.txt Example*
+
+Django==4.2
+djangorestframework==3.14.0
+psycopg2==2.9.3    
+django-cache==3.2 
